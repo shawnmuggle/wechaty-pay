@@ -76,7 +76,7 @@ function sendPayment (priceAmount, timestamp) {
 
 ## 产品实现
 
-如果还是觉得步骤有点繁琐？那可以试一下这款基于桔子互动的云端服务哦。
+如果还是觉得步骤有点繁琐？那可以试一下这款基于[桔子互动](https://www.botorange.com/)的云端服务哦。
 
 * 支持微信扫码托管（基于桔子互动服务）
 * 支持支付宝扫码托管
