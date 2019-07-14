@@ -1,0 +1,32 @@
+{
+  "name": "wechatpay",
+  "version": "0.1.0",
+  "description": "Personal Payment Solution",
+  "main": "pay.js",
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "postinstall": "check-node-version --node \">= 10\"",
+    "start": "node pay.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderwhocode/wechaty-pay.git"
+  },
+  "keywords": [],
+  "author": "Huan LI <zixia@zixia.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderwhocode/wechaty-pay/issues"
+  },
+  "homepage": "https://github.com/coderwhocode/wechaty-pay#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.0",
+    "wechaty": "^0.22.6"
+  },
+  "devDependencies": {
+    "check-node-version": "^3.2.0"
+  }
+}
